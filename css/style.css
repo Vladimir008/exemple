@@ -37,8 +37,8 @@
 			/* Карта */
 			#map{
 				
-				width:300px;
-				height:300px;
+				width:500px;
+				height:500px;
 				position: relative;
 				margin: 60px auto;
 				//margin-bottom:60px;
@@ -50,10 +50,14 @@
 				position:relative;
 			}
 			.population{
-				position:absolute;
+				position:relative;
 				width:100%;
 				height:100%;
 				background:red;
+			}
+			.population::before{
+				content:attr(data-count);
+				position: absolute;
 			}
 			property{
 				display:none;
