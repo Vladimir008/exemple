@@ -8,14 +8,10 @@ function game(){
 	this.getParams = function(){
 		return {
 			target:$("#map"),
-			col:50,
-			row:50,
+			col:15,
+			row:15,
 			population:[
-			     {count:20,x:1,y:1},
-			     {count:20,x:1,y:50},
-			     {count:20,x:25,y:25},
-			     {count:20,x:50,y:1},
-			     {count:20,x:50,y:50},
+			     {count:59,x:1,y:2},
 			     //{count:randomInt(10,40),x:14,y:14}, 
 			],
 			populationGrowthIndex : 0.1,
@@ -120,8 +116,6 @@ $(document).ready(function(){
 	var g = new game();
 	g.create();
 	$("#button-progress").click(function(){
-		for (var i = 1; i<=10;i++){	
-			g.progress();
-		}	
+			g.progress();		
 	});
 });
