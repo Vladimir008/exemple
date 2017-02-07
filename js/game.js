@@ -116,6 +116,9 @@ $(document).ready(function(){
 	var g = new game();
 	g.create();
 	$("#button-progress").click(function(){
-			g.progress();		
+
+		for (var i = 1; i<=10;i++){	
+			g.progress();
+		}	
 	});
 });
