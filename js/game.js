@@ -120,7 +120,7 @@ $(document).ready(function(){
 	var g = new game();
 	g.create();
 	$("#button-progress").click(function(){
-		for (var i = 1; i<=10;i++){	
+		for (var i = 1; i<=1;i++){	
 			g.progress();
 		}	
 	});
