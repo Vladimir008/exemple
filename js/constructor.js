@@ -23,6 +23,7 @@ constr.prototype.constructor = function(obj){
 	return this.reset(obj);
 }
 constr.prototype.update = function(obj){
+	
 	this.data = $.extend(this.data,obj);
 	return this;
 }

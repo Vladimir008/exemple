@@ -17,6 +17,7 @@ var Population = function(obj){
 		 x:0,
 		 y:0,
 		 count:2,
+		 year:0,
 	 };
 	this.class="population";
 	return this.reset(obj);
