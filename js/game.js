@@ -116,9 +116,13 @@ $(document).ready(function(){
 	var g = new game();
 	g.create();
 	$("#button-progress").click(function(){
+<<<<<<< HEAD
 
 		for (var i = 1; i<=10;i++){	
 			g.progress();
 		}	
+=======
+			g.progress();		
+>>>>>>> parent of 8b52de5... Первый запуск с большим числом
 	});
 });
